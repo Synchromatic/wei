@@ -106,7 +106,7 @@
 <!-- Three columns of text below the carousel -->
 <div class="row">
 <div class="col-lg-4">
-<img class="img-circle" src="img/circle1.jpg" alt="About Me">
+<img class="img-circle" height="150" src="img/circle1.jpg" alt="About Me">
 <h2>About Me</h2>
 <p>From being a tech enthusiast to sports fanatic, I have a huge array of diverse interests and hobbies.</p>
 <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
