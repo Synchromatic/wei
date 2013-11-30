@@ -24,14 +24,14 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="#index.php">Wei-Wei Cheng</a>
+<a class="navbar-brand" href="#">Wei-Wei Cheng</a>
 </div>
 
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class="nav navbar-nav navbar-right">
 <li><a href="#">About Me</a></li>
-<li><a href="#contact.php">Contact</a></li>
+<li><a href="#">Contact</a></li>
 
 </ul>
 </li>
@@ -39,8 +39,10 @@
 </div><!-- /.navbar-collapse -->
 </nav>
 
-<center><h1>Welcome to Wei-Wei&#39;s Homepage.</h1></center>
-
+<center>
+<h1><bold>I can be reached in the following ways: </bold></h1>
+<bold>Email:</bold> cheng[dot]2wei[at]gmail[dot].com
+</center>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
              <script src="https://code.jquery.com/jquery.js"></script>
              <!-- Include all compiled plugins (below), or include individual files as needed -->
