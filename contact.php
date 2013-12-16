@@ -94,7 +94,7 @@
   <label for="telephone">Phone Number</label>
  </td>
  <td valign="top">
-  <input  type="text" name=“Phone” maxlength="30" size="30">
+  <input  type="text" name=“telephone” maxlength="30" size="30">
  </td>
 </tr>
 <tr>
@@ -107,7 +107,7 @@
 </tr>
 <tr>
  <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit"><a href="http://www.freecontactform.com/email_form.php"></a></input>
+  <input type="submit" value="Submit"><a href="email_form.php"></a></input>
  </td>
 </tr>
 </table>

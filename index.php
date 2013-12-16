@@ -43,7 +43,7 @@
 <ul class="nav navbar-nav">
 <li class="active"><a href="index.php">Home</a></li>
 <li><a href="about.php">About</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a href="contact.php">Contact</a></li>
 </ul>
 </div>
 </div>

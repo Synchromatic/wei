@@ -43,7 +43,7 @@
 <ul class="nav navbar-nav">
 <li class="active"><a href="index.php">Home</a></li>
 <li><a href="about.php">About</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a href="contact.php">Contact</a></li>
 </ul>
 </div>
 </div>
@@ -67,8 +67,9 @@
 
 <div class="row featurette">
 <div class="col-md-7">
-<h2 class="featurette-heading">Integrating Software and Hardware<span class="text-muted">Best of both worlds.</span></h2>
-<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+<h2 class="featurette-heading">Integrating Software and Hardware</h2>
+<p class="lead"><span class="text-muted">As a Electrical Engineering Computer Engineering Major, I get
+to experience both ends of the spectrum. I believe that technology reaches an optimum point when the software is completely in sync with the hardware. </span></p>
 </div>
 <div class="col-md-5">
 <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -82,8 +83,8 @@
 <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
 </div>
 <div class="col-md-7">
-<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+<h2 class="featurette-heading">Where Work Meets Play</h2>
+<p class="lead"><span class="text-muted">Although working is great, and loving what you work is even better, it is always good to just lay back and relax once in a while. UCLA is the perfect place for this, as it not only academically rigorous, but also carries the relaxing California image.</span></p>
 </div>
 </div>
 
@@ -91,8 +92,8 @@
 
 <div class="row featurette">
 <div class="col-md-7">
-<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+<h2 class="featurette-heading">Tech Enthusiast</h2>
+<p class="lead"> <span class="text-muted">Whether it's cars, computers, enterainment systems, mobile phones (or anything connected to a power source really), I find all technology interesting and could about it for days.</span></p>
 </div>
 <div class="col-md-5">
 <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
