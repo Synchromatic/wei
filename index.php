@@ -56,12 +56,6 @@
 <!-- Carousel
 ================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-<!-- Indicators -->
-<ol class="carousel-indicators">
-<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-<li data-target="#myCarousel" data-slide-to="1"></li>
-<li data-target="#myCarousel" data-slide-to="2"></li>
-</ol>
 <div class="carousel-inner">
 <div class="item active">
 <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:Hello" alt="First slide">
@@ -72,27 +66,8 @@
 </div>
 </div>
 </div>
-<div class="item">
-<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
-<div class="container">
-<div class="carousel-caption">
-<h1>Another example headline.</h1>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 </div>
-</div>
-</div>
-<div class="item">
-<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
-<div class="container">
-<div class="carousel-caption">
-<h1>One more for good measure.</h1>
-<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</div>
-</div>
-</div>
-</div>
-<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
 </div><!-- /.carousel -->
 
 
@@ -109,7 +84,7 @@
 <img class="img-circle" height="150" src="img/circle1.jpg" alt="About Me">
 <h2>About Me</h2>
 <p>From being a tech enthusiast to sports fanatic, I have a huge array of diverse interests and hobbies.</p>
-<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+<p><a class="btn btn-default" href="about.php" role="button">View details &raquo;</a></p>
 </div><!-- /.col-lg-4 -->
 <div class="col-lg-4">
 <img class="img-circle" src="img/circle2.jpg" alt="Contact Me">
@@ -120,8 +95,8 @@
 <div class="col-lg-4">
 <img class="img-circle" src="img/circle3.jpg" alt="Generic placeholder image">
 <h2>Contact Me</h2>
-<p>Looking to get in touch with me? Contact me via social media or traditional forms of communcation.</p>
-<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+<p>Looking to get in touch with me?</p>
+<p><a class="btn btn-default" href="contact.php" role="button">View details &raquo;</a></p>
 </div><!-- /.col-lg-4 -->
 </div><!-- /.row -->
 
