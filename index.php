@@ -110,7 +110,7 @@
 <div class="row featurette">
 <div class="col-md-7">
 <h2 class="featurette-heading">Integrating Software and Hardware</h2>
-<p class="lead"><span class="text-muted">As a Electrical Engineering Computer Engineering Major, I get
+<p class="lead"><span class="text-muted">As an Electrical Engineering Computer Engineering Major, I get
 to experience both ends of the spectrum. I believe that technology reaches an optimum point when the software is completely in sync with the hardware. </span></p>
 </div>
 <div class="col-md-5">
@@ -165,7 +165,7 @@ cheng[dot]2wei[at]gmail.com
 <label for="email">LinkedIn:</label>
 </td>
 <td valign="top">
-<a href="www.linkedin.com/pub/wei-wei-cheng/52/710/587/">Profile</a>
+<a href="http://www.linkedin.com/pub/wei-wei-cheng/52/710/587/">Profile</a>
 </td>
 </tr>
 </table>
