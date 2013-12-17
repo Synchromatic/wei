@@ -90,7 +90,7 @@
                     <img class="img-circle" src="img/circle2.jpg" alt="Contact Me">
                         <h2>Projects</h2>
                         <p>Interested in the projects that I&#39;ve been working on? From hardware to software to design, it&#39;s all here.</p>
-                        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-default" id="project">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="img-circle" src="img/circle3.jpg" alt="Generic placeholder image">
@@ -114,7 +114,7 @@
                             to experience both ends of the spectrum. I believe that technology reaches an optimum point when the software is completely in sync with the hardware. </span></p>
                     </div>
                     <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                        <img class="featurette-image img-responsive" src="img/photo1.jpg">
                     </div>
                 </div>
                 
@@ -122,7 +122,7 @@
                 
                 <div class="row featurette">
                     <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                        <img class="featurette-image img-responsive" src="img/photo2.jpg">
                     </div>
                     <div class="col-md-7">
                         <h2 class="featurette-heading">Where Work Meets Play</h2>
@@ -138,7 +138,7 @@
                         <p class="lead"> <span class="text-muted">Whether it's cars, computers, enterainment systems, mobile phones (or anything connected to a power source really), I find all technology interesting and could about it for days.</span></p>
                     </div>
                     <div class="col-md-5">
-                        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                        <img class="featurette-image img-responsive" src="img/photo3.jpg">
                     </div>
                 </div>
                 
@@ -174,10 +174,43 @@
                 <hr class=“featurette-divider”>
             </div>
             
+            <div id="project-content" class="hidden">
+                <center>
+                    
+                    <p class="lead">I have worked or am still working on the following projects:</p>
+                    
+                    <table width="450px">
+                        <tr>
+                            <td valign="top">
+                               <center> <label>Website Text Scrapper</label></center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <center><label>Mobile Money Mobile App</label></center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <center><label>Rule14 Mobile App</label></center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <center><label>Simulated Automatic Water Dispesner</label></center>
+                            </td>
+                        </tr>
+                    </table>
+                        </center>
+                
+                <hr class=“featurette-divider”>
+            </div>
+
+
             <!-- FOOTER -->
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2013 Wei-Wei Cheng &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>&copy; 2013 Wei-Wei Cheng</p>
             </footer>
             
         </div><!-- /.container -->
@@ -202,6 +235,8 @@
                               var home_link = $('#home');
                               var home_main = $('#home-content');
                               var carousel = $('myCarousel');
+                              var project_link = $('#project');
+                              var project_main = $('#project-content');
                               
                               about_link.on('click', function(){
                                             about_main.removeClass('hidden');
@@ -248,6 +283,16 @@
                                            about_main.hide();
                                            carousel.show();
                                            });
+                              
+                              project_link.on('click', function(){
+                                              project_main.removeClass('hidden');
+                                              contact_main.hide();
+                                              carousel.addClass('hidden');
+                                              about_main.hide();
+                                              home_main.hide();
+                                              project_main.fadeIn();
+                                              carousel.hide();
+                                              });
                               
                               
                               });
