@@ -242,6 +242,7 @@ $(document).ready(function() {
                                 about_main.removeClass('hidden');
                                 about_main.fadeIn();
                                 home_main.hide();
+                                project_main.hide();
                                 contact_main.hide();
                                 carousel.addClass('hidden');
                                 carousel.hide();
@@ -251,6 +252,7 @@ $(document).ready(function() {
                                  about_main.removeClass('hidden');
                                  about_main.fadeIn();
                                  home_main.hide();
+                                 project_main.hide();
                                  contact_main.hide();
                                  carousel.addClass('hidden');
                                  carousel.hide();
@@ -261,6 +263,7 @@ $(document).ready(function() {
                                   contact_main.removeClass('hidden');
                                   carousel.addClass('hidden');
                                   about_main.hide();
+                                  project_main.hide();
                                   home_main.hide();
                                   contact_main.fadeIn();
                                   carousel.hide();
@@ -271,6 +274,7 @@ $(document).ready(function() {
                                    carousel.addClass('hidden');
                                    about_main.hide();
                                    home_main.hide();
+                                   project_main.hide();
                                    contact_main.fadeIn();
                                    carousel.hide();
                                    });
@@ -280,6 +284,7 @@ $(document).ready(function() {
                                carousel.removeClass('hidden');
                                contact_main.hide();
                                home_main.fadeIn();
+                               project_main.hide();
                                about_main.hide();
                                carousel.show();
                                });
