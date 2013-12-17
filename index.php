@@ -126,7 +126,7 @@ to experience both ends of the spectrum. I believe that technology reaches an op
 </div>
 <div class="col-md-7">
 <h2 class="featurette-heading">Where Work Meets Play</h2>
-<p class="lead"><span class="text-muted">Although working is great, and loving what you work is even better, it is always good to just lay back and relax once in a while. UCLA is the perfect place for this, as it not only academically rigorous, but also carries the relaxing California image.</span></p>
+<p class="lead"><span class="text-muted">Although working is great, and loving what you work is even better, it is always good to just lay back and relax once in a while. UCLA is the perfect place for this, as it not only is academically rigorous, but it also carries the relaxing California image.</span></p>
 </div>
 </div>
 
