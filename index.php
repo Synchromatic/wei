@@ -135,7 +135,7 @@ to experience both ends of the spectrum. I believe that technology reaches an op
 <div class="row featurette">
 <div class="col-md-7">
 <h2 class="featurette-heading">Tech Enthusiast</h2>
-<p class="lead"> <span class="text-muted">Whether it's cars, computers, enterainment systems, mobile phones (or anything connected to a power source really), I find all technology interesting and could about it for days.</span></p>
+<p class="lead"> <span class="text-muted">Whether it's cars, computers, enterainment systems, mobile phones (or anything connected to a power source really), I find all technology interesting and could talk about it for days.</span></p>
 </div>
 <div class="col-md-5">
 <img class="featurette-image img-responsive" src="img/photo3.jpg">
