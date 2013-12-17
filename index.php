@@ -188,7 +188,7 @@ to experience both ends of the spectrum. I believe that technology reaches an op
 </tr>
 <tr>
 <td colspan="2" style="text-align:center">
-<input type="submit" value="Submit"><a href="email_form.php"></a></input>
+<input type="submit" name="Submit" value="Submit" class="submit-button"></a></input>
 </td>
 </tr>
 </table>
