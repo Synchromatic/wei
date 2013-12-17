@@ -165,7 +165,7 @@ cheng[dot]2wei[at]gmail.com
 <label for="email">LinkedIn:</label>
 </td>
 <td valign="top">
-<a href="http://www.linkedin.com/pub/wei-wei-cheng/52/710/587/">Profile</a>
+<a href="http://www.linkedin.com/pub/wei-wei-cheng/52/710/587/" target="_blank">Profile</a>
 </td>
 </tr>
 </table>
