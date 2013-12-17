@@ -41,9 +41,9 @@
 </div>
 <div class="navbar-collapse collapse">
 <ul class="nav navbar-nav">
-<li class="active"><a href="index.php">Home</a></li>
-<li><a href="about.php">About</a></li>
-<li><a href="contact.php">Contact</a></li>
+<li class="active button" id="home"><a>Home</a></li>
+<li class="button" id="about"><a>About</a></li>
+<li class="button" id="contact"><a>Contact</a></li>
 </ul>
 </div>
 </div>
@@ -58,7 +58,7 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 <div class="carousel-inner">
 <div class="item active">
-<img src="img/carousel.jpg" alt="San Diego">
+<img src="img/carousel.jpg" alt="First slide">
 <div class="container">
 <div class="carousel-caption">
 <h1>My name is Wei-Wei.</h1>
@@ -79,12 +79,12 @@
 <div class="container marketing">
 
 <!-- Three columns of text below the carousel -->
-<div class="row">
+<div class="row" id="home-content">
 <div class="col-lg-4">
 <img class="img-circle" height="150" src="img/circle1.jpg" alt="About Me">
 <h2>About Me</h2>
 <p>From being a tech enthusiast to sports fanatic, I have a huge array of diverse interests and hobbies.</p>
-<p><a class="btn btn-default" href="about.php" role="button">View details &raquo;</a></p>
+<p><a class="btn btn-default" id="about2">View details &raquo;</a></p>
 </div><!-- /.col-lg-4 -->
 <div class="col-lg-4">
 <img class="img-circle" src="img/circle2.jpg" alt="Contact Me">
@@ -95,11 +95,107 @@
 <div class="col-lg-4">
 <img class="img-circle" src="img/circle3.jpg" alt="Generic placeholder image">
 <h2>Contact Me</h2>
-<p>Looking to get in touch with me?</p>
-<p><a class="btn btn-default" href="contact.php" role="button">View details &raquo;</a></p>
+<p>Looking to get in touch with me? Contact me via social media or traditional forms of communcation.</p>
+<p><a class="btn btn-default" id="contact2">View details &raquo;</a></p>
 </div><!-- /.col-lg-4 -->
 </div><!-- /.row -->
 
+
+<!--About Me
+================================ -->
+
+<div id="about-content" class="hidden">
+
+<!-- START THE FEATURETTES -->
+<div class="row featurette">
+<div class="col-md-7">
+<h2 class="featurette-heading">Integrating Software and Hardware</h2>
+<p class="lead"><span class="text-muted">As a Electrical Engineering Computer Engineering Major, I get
+to experience both ends of the spectrum. I believe that technology reaches an optimum point when the software is completely in sync with the hardware. </span></p>
+</div>
+<div class="col-md-5">
+<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+</div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+<div class="col-md-5">
+<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+</div>
+<div class="col-md-7">
+<h2 class="featurette-heading">Where Work Meets Play</h2>
+<p class="lead"><span class="text-muted">Although working is great, and loving what you work is even better, it is always good to just lay back and relax once in a while. UCLA is the perfect place for this, as it not only academically rigorous, but also carries the relaxing California image.</span></p>
+</div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+<div class="col-md-7">
+<h2 class="featurette-heading">Tech Enthusiast</h2>
+<p class="lead"> <span class="text-muted">Whether it's cars, computers, enterainment systems, mobile phones (or anything connected to a power source really), I find all technology interesting and could about it for days.</span></p>
+</div>
+<div class="col-md-5">
+<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+</div>
+</div>
+
+<hr class="featurette-divider">
+</div>
+
+
+<div id="contact-content" class="hidden">
+<center>
+
+<p class="lead">Looking to get in touch with me?</p>
+
+<form name="contactform" method="post" action="send_form_email.php">
+
+<table width="450px">
+<tr>
+<td valign="top">
+<label for="first_name">Name</label>
+</td>
+<td valign="top">
+<input  type="text" name=“Name” maxlength="50" size="30">
+</td>
+</tr>
+<tr>
+<td valign="top">
+<label for="email">Email Address</label>
+</td>
+<td valign="top">
+<input  type="text" name="email" maxlength="80" size="30">
+</td>
+</tr>
+<tr>
+<td valign="top">
+<label for="telephone">Phone Number</label>
+</td>
+<td valign="top">
+<input  type="text" name=“telephone” maxlength="30" size="30">
+</td>
+</tr>
+<tr>
+<td valign="top">
+<label for="comments">Comments</label>
+</td>
+<td valign="top">
+<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center">
+<input type="submit" value="Submit"><a href="email_form.php"></a></input>
+</td>
+</tr>
+</table>
+</form> </center>
+
+<hr class=“featurette-divider”>
+</div>
 
 <!-- FOOTER -->
 <footer>
@@ -110,11 +206,75 @@
 </div><!-- /.container -->
 
 
+
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/holder.js"></script>
+
+<script>
+$(document).ready(function() {
+                  var about_link = $('#about');
+                  var about_main =$('#about-content');
+                  var about_link2= $('#about2');
+                  var contact_link = $('#contact')
+                  var contact_link2 =$('#contact2');
+                  var contact_main = $('#contact-content');
+                  var home_link = $('#home');
+                  var home_main = $('#home-content');
+                  var carousel = $('myCarousel');
+                  
+                  about_link.on('click', function(){
+                                about_main.removeClass('hidden');
+                                about_main.fadeIn();
+                                home_main.hide();
+                                contact_main.hide();
+                                carousel.addClass('hidden');
+                                carousel.hide();
+                                });
+                  
+                  about_link2.on('click', function(){
+                                 about_main.removeClass('hidden');
+                                 about_main.fadeIn();
+                                 home_main.hide();
+                                 contact_main.hide();
+                                 carousel.addClass('hidden');
+                                 carousel.hide();
+                                 });
+                  
+                  
+                  contact_link.on('click', function(){
+                                  contact_main.removeClass('hidden');
+                                  carousel.addClass('hidden');
+                                  about_main.hide();
+                                  home_main.hide();
+                                  contact_main.fadeIn();
+                                  carousel.hide();
+                                  });
+                  
+                  contact_link2.on('click', function(){
+                                   contact_main.removeClass('hidden');
+                                   carousel.addClass('hidden');
+                                   about_main.hide();
+                                   home_main.hide();
+                                   contact_main.fadeIn();
+                                   carousel.hide();
+                                   });
+                  
+                  home_link.on('click', function(){
+                               home_main.removeClass('hidden');
+                               carousel.removeClass('hidden');
+                               contact_main.hide();
+                               home_main.fadeIn();
+                               about_main.hide();
+                               carousel.show();
+                               });
+                  
+                  
+                  });
+</script>
+
 </body>
 </html>
