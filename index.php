@@ -151,22 +151,48 @@ to experience both ends of the spectrum. I believe that technology reaches an op
 
 <p class="lead">Looking to get in touch with me?</p>
 
-<form method="post" action="contactengine.php">
-<label for="Name">Name:</label>
-<input type="text" name="Name" id="Name" />
+<form name="contactform" method="post" action="contactengine.php">
 
-<label for="City">City:</label>
-<input type="text" name="City" id="City" />
-
-<label for="Email">Email:</label>
-<input type="text" name="Email" id="Email" />
-
-<label for="Message">Message:</label><br />
-<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
-
-<input type="submit" name="submit" value="Submit" class="submit-button" />
-</form>
-</center>
+<table width="450px">
+<tr>
+<td valign="top">
+<label for="Name">Name</label>
+</td>
+<td valign="top">
+<input  type="text" id="Name" name=“Name” maxlength="50" size="30">
+</td>
+</tr>
+<tr>
+<td valign="top">
+<label for="email">Email Address</label>
+</td>
+<td valign="top">
+<input  type="text" id="Email" name="Email" maxlength="80" size="30">
+</td>
+</tr>
+<tr>
+<td valign="top">
+<label for="telephone">Telephone</label>
+</td>
+<td valign="top">
+<input  type="text" id="Telephone" name=“Telephone” maxlength="30" size="30">
+</td>
+</tr>
+<tr>
+<td valign="top">
+<label for="comments">Message</label>
+</td>
+<td valign="top">
+<textarea  id="Message" name="Message" maxlength="1000" cols="25" rows="6"></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:center">
+<input type="submit" value="Submit"><a href="email_form.php"></a></input>
+</td>
+</tr>
+</table>
+</form> </center>
 
 <hr class=“featurette-divider”>
 </div>
